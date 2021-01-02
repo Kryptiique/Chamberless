@@ -1,0 +1,627 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jay/Documents/GitHub/Chamberless/Chamberless
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52219
+Successfully changed project path to: C:/Users/Jay/Documents/GitHub/Chamberless/Chamberless
+C:/Users/Jay/Documents/GitHub/Chamberless/Chamberless
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jay/Documents/GitHub/Chamberless/Chamberless/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   27.21.14.5709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001597 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 318.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.080 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.1 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3740.
+Total: 2.572700 ms (FindLiveObjects: 0.420300 ms CreateObjectMapping: 0.211000 ms MarkObjects: 1.881300 ms  DeleteObjects: 0.058500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Art/Models/Environment/Hypercube.fbx
+  artifactKey: Guid(1b7f3215487093f44aa524e2842fa2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Environment/Hypercube.fbx using Guid(1b7f3215487093f44aa524e2842fa2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [34352:NonCelloThread] registry_win.h:64:GetProtoFromRegistryValue Getting length of binary registry key Software\Google\DriveFS\Share failed with 0x2
+ -> (artifact id: '695b9478fc1ecfb8164efd19eaac9fef') in 1.067746 seconds
+  Import took 1.074895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Art/Models/Environment/Halls.fbx
+  artifactKey: Guid(81e77f2e9d19fcb448c085041957de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Environment/Halls.fbx using Guid(81e77f2e9d19fcb448c085041957de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba319ffd4fe208c9666b2d59ec90368f') in 0.098281 seconds
+  Import took 0.102920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Art/Models/Environment/SmallRoom.fbx
+  artifactKey: Guid(00609d5255b16754da5c42b725e9d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Environment/SmallRoom.fbx using Guid(00609d5255b16754da5c42b725e9d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21f2174913ede3f38622cb902ac2dfb') in 0.055502 seconds
+  Import took 0.060779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1873.889618 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Door Trim.prefab
+  artifactKey: Guid(86ffab0869514614cafa94b802897fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Door Trim.prefab using Guid(86ffab0869514614cafa94b802897fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242115e77e700b5555699fc7b1eeb85b') in 0.026903 seconds
+  Import took 0.032586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Wall Trim.prefab
+  artifactKey: Guid(a9bbfd9500ea1124e8d84ca34966a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Wall Trim.prefab using Guid(a9bbfd9500ea1124e8d84ca34966a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19c2dde426201f20bff076fd25a018d') in 0.015775 seconds
+  Import took 0.021239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Trim Frame.prefab
+  artifactKey: Guid(e0e5c691220432941a366f9851863186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Trim Frame.prefab using Guid(e0e5c691220432941a366f9851863186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb13c8e76d865baa94792f28b3dfd42') in 0.018339 seconds
+  Import took 0.024322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.024369 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Hall_JBend.prefab
+  artifactKey: Guid(0e798ff1342096a4ab4198f114e32ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Hall_JBend.prefab using Guid(0e798ff1342096a4ab4198f114e32ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998c52a27017801d59625d5835b8170d') in 0.014678 seconds
+  Import took 0.019525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.456698 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Hall_Long.prefab
+  artifactKey: Guid(e68e732c9d8dd7443b4a16b427d7c908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Hall_Long.prefab using Guid(e68e732c9d8dd7443b4a16b427d7c908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c239b6984a77194b54963a68ced91acb') in 0.014347 seconds
+  Import took 0.019128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.794926 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Hall_Short.prefab
+  artifactKey: Guid(3c4abfa4cb100ba48beb68cc28be26b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Hall_Short.prefab using Guid(3c4abfa4cb100ba48beb68cc28be26b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50afa4cf0c36a7dbbce431adb960c904') in 0.014147 seconds
+  Import took 0.019036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.636803 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Hall_ShortNeck.prefab
+  artifactKey: Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Hall_ShortNeck.prefab using Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fa51f5e384b7361ed96cc649e12c4b') in 0.025465 seconds
+  Import took 0.030509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003139 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Hall_ShortNeck.prefab
+  artifactKey: Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Hall_ShortNeck.prefab using Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fa51f5e384b7361ed96cc649e12c4b') in 0.013804 seconds
+  Import took 0.019961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2841.720228 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Hall_LBend.prefab
+  artifactKey: Guid(a580fbb2b979d8a42bc9c6008df3d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Hall_LBend.prefab using Guid(a580fbb2b979d8a42bc9c6008df3d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb86c3973c336d08d43a176cf15fd6d') in 0.023353 seconds
+  Import took 0.032382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001060 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Segments/Hall_LBend.prefab
+  artifactKey: Guid(a580fbb2b979d8a42bc9c6008df3d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Segments/Hall_LBend.prefab using Guid(a580fbb2b979d8a42bc9c6008df3d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb86c3973c336d08d43a176cf15fd6d') in 0.009856 seconds
+  Import took 0.016065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.996909 seconds.
+  path: Assets/Prefabs/Environment/Small Room/SmallRoom_1D.prefab
+  artifactKey: Guid(0b5ef39936d2f93498b258ad0f32b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/SmallRoom_1D.prefab using Guid(0b5ef39936d2f93498b258ad0f32b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1f9ceaa7755313ca641bb4f6039db8') in 0.016410 seconds
+  Import took 0.021096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.964017 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_JBend.prefab
+  artifactKey: Guid(6e83c3b513715bf49b2c46e0c4d3352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_JBend.prefab using Guid(6e83c3b513715bf49b2c46e0c4d3352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6914de4e1b83c1a7ee8666c0c9eb50d7') in 0.015327 seconds
+  Import took 0.025190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 678.222104 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_TIntersection.prefab
+  artifactKey: Guid(6a8213230904b26459cd5261da52fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_TIntersection.prefab using Guid(6a8213230904b26459cd5261da52fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36d0373b7455a22b6587264b594680a') in 0.026381 seconds
+  Import took 0.032714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002757 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_TIntersection.prefab
+  artifactKey: Guid(6a8213230904b26459cd5261da52fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_TIntersection.prefab using Guid(6a8213230904b26459cd5261da52fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36d0373b7455a22b6587264b594680a') in 0.011491 seconds
+  Import took 0.018528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.014559 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_Junction.prefab
+  artifactKey: Guid(19a7d24c75f34084aba8b079f7783e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_Junction.prefab using Guid(19a7d24c75f34084aba8b079f7783e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf785f5cd9cf8ae361758f9b35bea39') in 0.017770 seconds
+  Import took 0.022663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 839.294737 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_CornerFrame.prefab
+  artifactKey: Guid(35b6e0176175df043844f64ccb5abf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_CornerFrame.prefab using Guid(35b6e0176175df043844f64ccb5abf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49163b60f2595320211d57277bfb2e4') in 0.018050 seconds
+  Import took 0.024526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.894407 seconds.
+  path: Assets/_External/Allsky/Overcast/Overcast High/AllSky_Overcast3_High.mat
+  artifactKey: Guid(83d44cc7a43034adeaf351b6a4cbc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Overcast/Overcast High/AllSky_Overcast3_High.mat using Guid(83d44cc7a43034adeaf351b6a4cbc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff47a9491e4d7424a36d51729ef0f07') in 0.260257 seconds
+  Import took 0.265581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Art/Materials/Flat Black.mat
+  artifactKey: Guid(16fd26b865dcc3c4e9375196130fd903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Flat Black.mat using Guid(16fd26b865dcc3c4e9375196130fd903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eb9a7df2757a94c058a15a6d512c57') in 0.013001 seconds
+  Import took 0.018125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low ClearHazy/Night Moon Low ClearHazy Equirect.mat
+  artifactKey: Guid(c87b24019ebf34ce89e9f43373aa7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low ClearHazy/Night Moon Low ClearHazy Equirect.mat using Guid(c87b24019ebf34ce89e9f43373aa7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4fe57b7cbcac9e6736e894bab86663') in 0.037485 seconds
+  Import took 0.044709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High HorizonRich 2/Night Moon High HorizonRich 2.mat
+  artifactKey: Guid(2802676fe83354dfc96a5cbf13841124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High HorizonRich 2/Night Moon High HorizonRich 2.mat using Guid(2802676fe83354dfc96a5cbf13841124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1588e76c5984920b4d77f3e7c0653fbc') in 0.028098 seconds
+  Import took 0.033551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low CrepuscularStyle/Night Moon Low CrepuscularStyle.mat
+  artifactKey: Guid(b11a33ad417f44e789a1edf73442c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low CrepuscularStyle/Night Moon Low CrepuscularStyle.mat using Guid(b11a33ad417f44e789a1edf73442c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91df3df0fce73b9af2195c69c71c8a6a') in 0.028403 seconds
+  Import took 0.033054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High Clear/Night Moon High Clear Equirect.mat
+  artifactKey: Guid(205477e6cfaca4f12bc334ed68d7eaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High Clear/Night Moon High Clear Equirect.mat using Guid(205477e6cfaca4f12bc334ed68d7eaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f52d0b2b6a1de1bed2b46aa57f7e927') in 0.032428 seconds
+  Import took 0.036919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low Cumulus2/Night Moon Low Cumulus2 Equirect.mat
+  artifactKey: Guid(fcda29afc4a484fe49d463189b405ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low Cumulus2/Night Moon Low Cumulus2 Equirect.mat using Guid(fcda29afc4a484fe49d463189b405ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7de93a1ad18072adabceb0d32b17d5f') in 0.034545 seconds
+  Import took 0.039746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/Textures/Skyboxes/Eclipse (blue)/Eclipse_Blue MAT.mat
+  artifactKey: Guid(e14abf8fee02f794491992ffbe8d77b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Skyboxes/Eclipse (blue)/Eclipse_Blue MAT.mat using Guid(e14abf8fee02f794491992ffbe8d77b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791792e524df0fd6b9c98f373333b8f7') in 0.029361 seconds
+  Import took 0.034715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low CloudsLayer/Night Moon Low CloudsLayer.mat
+  artifactKey: Guid(a971b0a7eca4e440284b2b7dec012341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low CloudsLayer/Night Moon Low CloudsLayer.mat using Guid(a971b0a7eca4e440284b2b7dec012341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de00c7cfc6fc75df2391b0685b14a52') in 0.023511 seconds
+  Import took 0.030003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High SummerSky 3/Night Moon High SummerSky 3.mat
+  artifactKey: Guid(fa8ed54f569bb464e814c3971e7f9ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High SummerSky 3/Night Moon High SummerSky 3.mat using Guid(fa8ed54f569bb464e814c3971e7f9ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93076e16c0a6cd8844f013b56f0ff21') in 0.029206 seconds
+  Import took 0.034196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_External/Allsky/Overcast/Overcast Low/AllSky_Overcast4_Low Equirect.mat
+  artifactKey: Guid(5c3412917e9624e6cb7ca3ad08dafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Overcast/Overcast Low/AllSky_Overcast4_Low Equirect.mat using Guid(5c3412917e9624e6cb7ca3ad08dafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e728edc172c0b4d1c7d72056614246') in 0.033128 seconds
+  Import took 0.039987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/_External/Allsky/Overcast/Overcast Low/AllSky_Overcast4_Low.mat
+  artifactKey: Guid(5e9a6e01b02c54b21a97a7f5a03b1fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Overcast/Overcast Low/AllSky_Overcast4_Low.mat using Guid(5e9a6e01b02c54b21a97a7f5a03b1fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a242e063ff589628ddf4d356719d0e70') in 0.037952 seconds
+  Import took 0.042925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High SimpleCloudLayer 2/Materials/Night Moon High SimpleCloudLayer 2.mat
+  artifactKey: Guid(ad6c80ea83815b6448d70cf659f8bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High SimpleCloudLayer 2/Materials/Night Moon High SimpleCloudLayer 2.mat using Guid(ad6c80ea83815b6448d70cf659f8bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bfe851cfb2c88f8c1147aa7766136e') in 0.035546 seconds
+  Import took 0.043154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High SummerSky 3/Night Moon High SummerSky 3 Equirect.mat
+  artifactKey: Guid(a51e22567673b495db03f0fa51d540fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High SummerSky 3/Night Moon High SummerSky 3 Equirect.mat using Guid(a51e22567673b495db03f0fa51d540fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46221ba6e08ff387c691dd2e7572e04') in 0.032932 seconds
+  Import took 0.037448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low CloudsLayered/Night Moon Low CloudsLayered.mat
+  artifactKey: Guid(c34cd0e0636984f7ea8a193a2d1c2f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low CloudsLayered/Night Moon Low CloudsLayered.mat using Guid(c34cd0e0636984f7ea8a193a2d1c2f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35860b9011c67dedaebbad4528162e86') in 0.031053 seconds
+  Import took 0.036538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low EpicDenseClouds/Night Moon Low EpicDenseClouds.mat
+  artifactKey: Guid(bb8e7b543b1bc44beb4cc7f4dddb4a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low EpicDenseClouds/Night Moon Low EpicDenseClouds.mat using Guid(bb8e7b543b1bc44beb4cc7f4dddb4a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2795c1993222e24aba487b3f7b5743c') in 0.035555 seconds
+  Import took 0.041056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low EpicDenseClouds/Night Moon Low EpicDenseClouds Equirect.mat
+  artifactKey: Guid(137d3c33b1a3c41fda1cc35c6a5d2dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low EpicDenseClouds/Night Moon Low EpicDenseClouds Equirect.mat using Guid(137d3c33b1a3c41fda1cc35c6a5d2dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a155a091c023af6930c7fbf355bcc7') in 0.029599 seconds
+  Import took 0.035478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low CrepuscularStyle/Night Moon Low CrepuscularStyle Equirect.mat
+  artifactKey: Guid(20f09e64f9b2f410ab00c261009d304b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low CrepuscularStyle/Night Moon Low CrepuscularStyle Equirect.mat using Guid(20f09e64f9b2f410ab00c261009d304b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5486e9f7abaac83d5f2f34733834999') in 0.030895 seconds
+  Import took 0.035295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low ClearHazy/Night Moon Low ClearHazy.mat
+  artifactKey: Guid(674d1e8e84edd4f378a41985221a4347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low ClearHazy/Night Moon Low ClearHazy.mat using Guid(674d1e8e84edd4f378a41985221a4347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b567dfc14c542b8192b9a3322207ba87') in 0.029578 seconds
+  Import took 0.034166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High SimpleCloudLayer 2/Night Moon High SimpleCloudLayer 2.mat
+  artifactKey: Guid(1b215ac9234594d2b9f3a6b69b14e4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High SimpleCloudLayer 2/Night Moon High SimpleCloudLayer 2.mat using Guid(1b215ac9234594d2b9f3a6b69b14e4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73cc11c4d4e153f8303ed7e913b819c') in 0.024782 seconds
+  Import took 0.029169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low Clear/Night Moon Low Clear.mat
+  artifactKey: Guid(cbf0b30d77f0a4987ad6ba69e805ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low Clear/Night Moon Low Clear.mat using Guid(cbf0b30d77f0a4987ad6ba69e805ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29803f5e318d0197f4f0af14589f567f') in 0.026640 seconds
+  Import took 0.030935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High Clear/Materials/Night Moon High Clear.mat
+  artifactKey: Guid(68d5d8a589b182842911baadcf318005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High Clear/Materials/Night Moon High Clear.mat using Guid(68d5d8a589b182842911baadcf318005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28451c8d8f25760c1aa03858a35a83f') in 0.026095 seconds
+  Import took 0.030996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low CloudsLayer/Night Moon Low CloudsLayer Equirect.mat
+  artifactKey: Guid(80488790f873140c39e146cdb0c7d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low CloudsLayer/Night Moon Low CloudsLayer Equirect.mat using Guid(80488790f873140c39e146cdb0c7d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8852a807c21e8ab577a52334dc40a50c') in 0.027415 seconds
+  Import took 0.032334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_External/Allsky/Overcast/Overcast High/AllSky_Overcast3_High Equirect.mat
+  artifactKey: Guid(11497492e554c4d3e8865a9b413115a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Overcast/Overcast High/AllSky_Overcast3_High Equirect.mat using Guid(11497492e554c4d3e8865a9b413115a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577064c6d70fe1445961e648ca21f55a') in 0.033064 seconds
+  Import took 0.038086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low Cumulus2/Night Moon Low Cumulus2.mat
+  artifactKey: Guid(757d5a125316d484d87ad3305ceb7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low Cumulus2/Night Moon Low Cumulus2.mat using Guid(757d5a125316d484d87ad3305ceb7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ab069d01e038195c9ad3eaf9d52e2c') in 0.025896 seconds
+  Import took 0.031661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High Clear/Night Moon High Clear.mat
+  artifactKey: Guid(638fd675898b44d4c920740da8ad8e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High Clear/Night Moon High Clear.mat using Guid(638fd675898b44d4c920740da8ad8e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe5422561aba98c70e4c95461e19038') in 0.028449 seconds
+  Import took 0.033048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High SimpleCloudLayer 2/Night Moon High SimpleCloudLayer 2 Equirect.mat
+  artifactKey: Guid(d8170cf27e2af4926a846980a6c22dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High SimpleCloudLayer 2/Night Moon High SimpleCloudLayer 2 Equirect.mat using Guid(d8170cf27e2af4926a846980a6c22dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c370bb79f7487cce8a94d376412088') in 0.027270 seconds
+  Import took 0.031954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low CloudsLayered/Night Moon Low CloudsLayered Equirect.mat
+  artifactKey: Guid(b392e47b4fd784691a93f5c1725e7dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low CloudsLayered/Night Moon Low CloudsLayered Equirect.mat using Guid(b392e47b4fd784691a93f5c1725e7dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e435a2b46279568b5f622e6af22c706d') in 0.027303 seconds
+  Import took 0.032642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Art/Materials/Flat White.mat
+  artifactKey: Guid(46fc28a0f3ffd6e44824ac443107ce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Flat White.mat using Guid(46fc28a0f3ffd6e44824ac443107ce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e50a905ae1322437a61155730d6796') in 0.015093 seconds
+  Import took 0.019725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low Clear/Night Moon Low Clear Equirect.mat
+  artifactKey: Guid(af95971ac04364a9a94f870144fb9a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low Clear/Night Moon Low Clear Equirect.mat using Guid(af95971ac04364a9a94f870144fb9a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8f33a4efe047b25927c585e497983f') in 0.029277 seconds
+  Import took 0.034217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/_External/Allsky/Night Moon High/Night Moon High HorizonRich 2/Night Moon High HorizonRich 2 Equirect.mat
+  artifactKey: Guid(0c32cb3583a1b4b48a4c52be655ddeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon High/Night Moon High HorizonRich 2/Night Moon High HorizonRich 2 Equirect.mat using Guid(0c32cb3583a1b4b48a4c52be655ddeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef09ccccadc72c3f2a2d306d3a11951') in 0.029764 seconds
+  Import took 0.034515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.600706 seconds.
+  path: Assets/Art/Models/Environment/Halls.fbx
+  artifactKey: Guid(81e77f2e9d19fcb448c085041957de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Environment/Halls.fbx using Guid(81e77f2e9d19fcb448c085041957de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e30193c0f7b8269195a0274c5e47349') in 0.127335 seconds
+  Import took 0.140074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.840103 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low EpicHigh/Night Moon Low EpicHigh.mat
+  artifactKey: Guid(8ee5426210cba408a9dc56fb6ba18490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low EpicHigh/Night Moon Low EpicHigh.mat using Guid(8ee5426210cba408a9dc56fb6ba18490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b47c196dcec13e73046ed17da6375a') in 0.030410 seconds
+  Import took 0.035865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003203 seconds.
+  path: Assets/_External/Allsky/Night Moon Low/Night Moon Low EpicHigh/Night Moon Low EpicHigh.mat
+  artifactKey: Guid(8ee5426210cba408a9dc56fb6ba18490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/Allsky/Night Moon Low/Night Moon Low EpicHigh/Night Moon Low EpicHigh.mat using Guid(8ee5426210cba408a9dc56fb6ba18490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b47c196dcec13e73046ed17da6375a') in 0.012781 seconds
+  Import took 0.020055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.211858 seconds.
+  path: Assets/Art/Models/Environment/Halls.fbx
+  artifactKey: Guid(81e77f2e9d19fcb448c085041957de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Environment/Halls.fbx using Guid(81e77f2e9d19fcb448c085041957de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11348a7f555e97b3f354b9db81bef155') in 0.091335 seconds
+  Import took 0.096416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.971722 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_CornerFrame.prefab
+  artifactKey: Guid(35b6e0176175df043844f64ccb5abf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_CornerFrame.prefab using Guid(35b6e0176175df043844f64ccb5abf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b2b8c05d513848c82987f60474de50') in 0.016132 seconds
+  Import took 0.021738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.100403 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_JBend.prefab
+  artifactKey: Guid(6e83c3b513715bf49b2c46e0c4d3352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_JBend.prefab using Guid(6e83c3b513715bf49b2c46e0c4d3352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effa582f761c14ead4b024c4fd96d3b6') in 0.024660 seconds
+  Import took 0.029896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.376502 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_JBend.prefab
+  artifactKey: Guid(6e83c3b513715bf49b2c46e0c4d3352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_JBend.prefab using Guid(6e83c3b513715bf49b2c46e0c4d3352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd829e6a05f09c4ab8bb265e11553ae70') in 0.014867 seconds
+  Import took 0.021374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.357928 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_Junction.prefab
+  artifactKey: Guid(19a7d24c75f34084aba8b079f7783e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_Junction.prefab using Guid(19a7d24c75f34084aba8b079f7783e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2207edbf11faffbc697c1078f25fa91c') in 0.020778 seconds
+  Import took 0.025791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.459710 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_Junction.prefab
+  artifactKey: Guid(19a7d24c75f34084aba8b079f7783e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_Junction.prefab using Guid(19a7d24c75f34084aba8b079f7783e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afd6d9c5955a222dbd315b695f45dc2') in 0.016741 seconds
+  Import took 0.027072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.769015 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_Junction.prefab
+  artifactKey: Guid(19a7d24c75f34084aba8b079f7783e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_Junction.prefab using Guid(19a7d24c75f34084aba8b079f7783e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b753db31963520bc09c496b8c4598a24') in 0.016492 seconds
+  Import took 0.021591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.440577 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_LBend.prefab
+  artifactKey: Guid(a580fbb2b979d8a42bc9c6008df3d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_LBend.prefab using Guid(a580fbb2b979d8a42bc9c6008df3d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8686e54650c6a0f48061f639589c2819') in 0.013946 seconds
+  Import took 0.018871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.551795 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_LBend.prefab
+  artifactKey: Guid(a580fbb2b979d8a42bc9c6008df3d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_LBend.prefab using Guid(a580fbb2b979d8a42bc9c6008df3d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cefe25c6c9820dad68056de0cafff9e') in 0.020723 seconds
+  Import took 0.027760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.203730 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_Long.prefab
+  artifactKey: Guid(e68e732c9d8dd7443b4a16b427d7c908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_Long.prefab using Guid(e68e732c9d8dd7443b4a16b427d7c908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0c97ebe12a08bc255d93dd1ada4e46') in 0.013329 seconds
+  Import took 0.018003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.972181 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_Short.prefab
+  artifactKey: Guid(3c4abfa4cb100ba48beb68cc28be26b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_Short.prefab using Guid(3c4abfa4cb100ba48beb68cc28be26b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aa758f91c70a4e585dafa1e4276152') in 0.016943 seconds
+  Import took 0.022867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.942327 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_ShortNeck.prefab
+  artifactKey: Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_ShortNeck.prefab using Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877bbc703eec5ffbe45cff5ac6c677da') in 0.023726 seconds
+  Import took 0.029057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.200712 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_ShortNeck.prefab
+  artifactKey: Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_ShortNeck.prefab using Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd8c165f5bff19579ea9557b74e209b') in 0.011358 seconds
+  Import took 0.017577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.111158 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_ShortNeck.prefab
+  artifactKey: Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_ShortNeck.prefab using Guid(fdcfdbad229c7564daa28535f28f27ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f58c6c8382d67af6d5109c3416d55c8') in 0.013772 seconds
+  Import took 0.018653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.370764 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_TIntersection.prefab
+  artifactKey: Guid(6a8213230904b26459cd5261da52fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_TIntersection.prefab using Guid(6a8213230904b26459cd5261da52fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865cfac4aa0946f82ba5cf1c8155b60a') in 0.010668 seconds
+  Import took 0.019933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.543833 seconds.
+  path: Assets/Prefabs/Environment/Small Room/Hall/Hall_TIntersection.prefab
+  artifactKey: Guid(6a8213230904b26459cd5261da52fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Small Room/Hall/Hall_TIntersection.prefab using Guid(6a8213230904b26459cd5261da52fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028e960e35e527a7e4b81093804c74e7') in 0.012290 seconds
+  Import took 0.017817 seconds .
+
